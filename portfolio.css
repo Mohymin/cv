@@ -1,0 +1,72 @@
+@font-face {
+font-family: 'Sacramento';
+font-style: normal;
+font-weight: 400;
+src: local('Sacramento'), local('Sacramento-Regular'), url(http://themes.googleusercontent.com/static/fonts/sacramento/v1/WFDkXpubrEwopJnSlHV6CC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+
+.head{
+  font-family: sacramento;
+}
+
+body{
+  background-color: #faf2f2;
+}
+.first-part{
+ opacity: .9;
+}
+
+
+.second-part{
+ padding-bottom: 9%;
+ padding-top:7%;
+
+}
+.fa-node-js, .fa-database, .fa-code, .brand{
+  color:red;
+}
+.third-part{
+  text-align: center;
+  background-color: #584153;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  color: white;
+}
+.fa-facebook-square, .fa-twitter-square, .fa-instagram, .fa-linkedin{
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px 0px 10px;
+  color:white;
+}
+.list-inline-item a{
+  color:white;
+}
+
+
+@media (max-width:768px){
+.btn-outline-primary{
+  text-align: center;
+}
+.head{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.lead{
+  font-size: 16px;
+}
+.button{
+text-align: center;
+}
+.second-part, .third-part{
+  font-size: 15px;
+}
+.navbar-toggler-icon{
+  width:20px;
+  height:20px;
+  background-color:white;
+}
+.navbar-toggler{
+  background-color:#c060a1;
+}
+}
